@@ -1,0 +1,14 @@
+struct Book {
+    let name:String
+    
+    let year:String
+
+    let pages:String
+    }
+
+    let book = Book(name:"The LORD of the RINGS",year:"1954",pages:"1137")
+    print(book.name)
+    
+    print(book.year)
+
+    print(book.pages)
